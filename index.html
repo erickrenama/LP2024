@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <fieldset>
+            <legend>Dados de Acesso:</legend>
+            <label for="fname">Usuario:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lpassword">Senha:</label><br>
+            <input type="text" id="lpassword" name="lpassword" value=""><br><br>
+
+            <br>
+        </fieldset>
+          <br><br>
+
+        <fieldset>
+
+            <legend>Dados Pessoais:</legend>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="fname">Endereço:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="fname">Numero:</label><br>
+            <input type="number" id="fname" name="fname" value=""><br>
+            <label for="fname">Complemento:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="fname">Cidades:</label> <br>
+            <input list="Cidades" name="Cidades">
+            <datalist id="Cidades">
+                <option value="São Paulo">
+                <option value="Itu">
+                <option value="Sorocaba">
+                <option value="Porto Feliz">
+                <option value="Araçoiaba da Serra">
+            </datalist>
+           <br><br>
+        
+
+        <label for="fname">Estado:</label> <br>
+        <select id="Estado" name="Estado">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="PR">Audi</option>
+        </select>
+    </fieldset>
+     <br><br>
+
+    <fieldset>
+        <label for="fname">Gênero:</label> <br>
+        <input type="radio" id="Masculino" name="fav_language" value="Masculino" checked>
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Feminino" name="fav_language" value="Feminino">
+        <label for="Feminino">Feminino</label><br>
+        <input type="radio" id="Prefiro não falar" name="fav_language" value="Prefiro não falar">
+        <label for="Prefiro não falar">Prefiro não falar</label>
+</fieldset>
+        <br><br>
+
+        <fieldset>
+        <label for="fname">Curso:</label> <br>
+        <input type="checkbox" id="ADS" name="ADS" value="ADS">
+        <label for="ADS">ADS </label><br>
+        <input type="checkbox" id="Jogos" name="Jogos" value="Jogos">
+        <label for="Jogos">Jogos</label><br>
+        <input type="checkbox" id="Gestão de TI" name="Gestão de TI" value="Gestão de TI">
+        <label for="Gestão de TI"> Gestão de TI</label> <br>
+        <input type="checkbox" id="Banco de Dados" name="Banco de Dados" value="Banco de Dados">
+        <label for="Gestão de TI"> Banco de Dados</label>
+        
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+        <label for="fname">Modelo:</label> <br>
+        <input type="radio" id="Presencial" name="fav_language" value="Presencial" checked>
+        <label for="Presencial">Presencial</label><br>
+        <input type="radio" id="EAD" name="fav_language" value="EAD">
+        <label for="EAD">EAD</label><br>
+        <input type="radio" id="Semi Presencial" name="fav_language" value="Semi Presencial">
+        <label for="Semi Presencial">Semi Presencial</label>
+
+    </fieldset>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
